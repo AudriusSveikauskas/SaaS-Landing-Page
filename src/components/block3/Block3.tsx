@@ -6,7 +6,13 @@ import HeadingDarkSecondaryH16 from '../typography/HeadingDarkSecondaryH16';
 import Block3Box from '../basics/Block3Box';
 
 const Block3 = () => (
-  <Box sx={{ mt: '64px', backgroundColor: '#0066FF1A', paddingY: '64px' }}>
+  <Box
+    sx={{
+      mt: { xs: '36px', md: '64px' },
+      backgroundColor: '#0066FF1A',
+      paddingY: { xs: '36px', md: '64px' },
+    }}
+  >
     <Container>
       <Typography
         sx={{
@@ -25,8 +31,8 @@ const Block3 = () => (
           display: 'flex',
           flexDirection: { xs: 'column', sm: 'row' },
           justifyContent: 'space-between',
-          mt: '64px',
-          gap: '64px',
+          mt: { xs: '36px', md: '64px' },
+          gap: { xs: '32px', md: '64px' },
         }}
       >
         <Block3Box>
