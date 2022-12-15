@@ -44,7 +44,10 @@
           "namedComponents": "arrow-function",
           "unnamedComponents": "arrow-function"
         }
-      ]
+      ],
+      "object-curly-newline": [2, {
+        "ExportDeclaration": { "multiline": true, "minProperties": 6 }
+      }]
     }
   },
   "browserslist": {

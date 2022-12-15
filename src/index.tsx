@@ -8,6 +8,15 @@ const theme = createTheme({
   typography: {
     fontFamily: 'Inter, sans-serif',
   },
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1248,
+      xl: 1536,
+    },
+  },
 });
 
 const root = ReactDOM.createRoot(
