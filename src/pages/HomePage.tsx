@@ -3,6 +3,7 @@ import { Box, Container } from '@mui/material';
 
 import Block1 from '../components/block1/Block1';
 import Block2 from '../components/block2/Block2';
+import Block3 from '../components/block3/Block3';
 
 const HomePage = () => {
   console.log('HomePage');
@@ -23,8 +24,9 @@ const HomePage = () => {
       <Container>
         <Block1 />
         <Block2 />
-        <Box sx={{ height: '50px' }} />
       </Container>
+      <Block3 />
+      <Box sx={{ height: '100px' }} />
     </>
   );
 };
