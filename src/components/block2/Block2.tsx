@@ -55,16 +55,19 @@ const Block2 = () => (
         title1="Reach"
         title2="a high-value, fraud-free user base for your app"
         description="Filter out fraudulent traffic and target the most relevant audiences with optimized creatives run post A/B testing to ensure real conversions"
+        buttonTitle="Read more"
       />
       <Card
         title1="Retain"
         title2="users with machine learning and optimized creatives"
         description="Create extensive look-alike audiences, measure user interest and estimate likelihood of actions to retarget previously active and loyal users with our predictive machine learning"
+        buttonTitle="Read more"
       />
       <Card
         title1="Optimize"
         title2="your user LTV goals with the apt model"
         description="Analyse post-install behaviour of users and reduce customer acquisitions costs with a focus on higher user LTVs"
+        buttonTitle="Read more"
       />
     </Box>
   </Box>

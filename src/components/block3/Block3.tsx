@@ -44,7 +44,9 @@ const Block3 = () => (
           <HeadingAccentPrimaryH56 text="110+" />
           <Box>
             <HeadingDarkPrimaryH20 text="Countries engaged" />
-            <HeadingDarkSecondaryH16 text="with ads each month" />
+            <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+              <HeadingDarkSecondaryH16 text="with ads each month" />
+            </Box>
           </Box>
         </Block3Box>
 
@@ -57,7 +59,9 @@ const Block3 = () => (
           <HeadingAccentPrimaryH56 text="8+" />
           <Box>
             <HeadingDarkPrimaryH20 text="Years of Experience" />
-            <HeadingDarkSecondaryH16 text="in the App Industry" />
+            <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+              <HeadingDarkSecondaryH16 text="in the App Industry" />
+            </Box>
           </Box>
         </Block3Box>
       </Box>

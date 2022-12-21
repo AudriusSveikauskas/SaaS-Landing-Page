@@ -14,7 +14,6 @@ const HeadingDarkSecondaryH16: React.FC<HeadingDarkSecondaryH16Props> = ({
       fontWeight: 600,
       lineHeight: '24px',
       letterSpacing: '-0.4px',
-      textAlign: 'center',
       color: 'rgba(39,41,55,0.75)',
     }}
   >

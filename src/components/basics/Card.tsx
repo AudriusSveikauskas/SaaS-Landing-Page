@@ -1,15 +1,20 @@
 import React from 'react';
-import { Avatar, Box, Button, Typography } from '@mui/material';
-
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { Avatar, Box, Typography } from '@mui/material';
+import OutlinedButton from './OutlinedButton';
 
 type CardProps = {
   title1: string;
   title2: string;
   description: string;
+  buttonTitle: string;
 };
 
-const Card: React.FC<CardProps> = ({ title1, title2, description }) => {
+const Card: React.FC<CardProps> = ({
+  title1,
+  title2,
+  description,
+  buttonTitle,
+}) => {
   console.log('Card');
 
   return (
@@ -47,7 +52,9 @@ const Card: React.FC<CardProps> = ({ title1, title2, description }) => {
             color: '#272937',
           }}
         >
-          <span style={{ color: '#366BD3' }}>{title1}</span> {title2}
+          <span style={{ color: '#366BD3' }}>{title1}</span>
+          {' '}
+          {title2}
         </Typography>
         <Typography
           sx={{
@@ -64,22 +71,7 @@ const Card: React.FC<CardProps> = ({ title1, title2, description }) => {
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Button
-          variant="outlined"
-          sx={{
-            textTransform: 'none',
-            fontSize: '14px',
-            fontWeight: 600,
-            lineHeight: '20px',
-            letterSpacing: '-0.1px',
-            color: '#0066FF',
-            border: 'solid 1px #0066FF',
-            height: '40px',
-          }}
-          endIcon={<ArrowForwardIcon />}
-        >
-          Read more
-        </Button>
+        <OutlinedButton title={buttonTitle} />
       </Box>
     </Box>
   );
