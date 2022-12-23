@@ -15,7 +15,6 @@ const HeadingDarkPrimaryH20: React.FC<HeadingDarkPrimaryH20Props> = ({
       lineHeight: { xs: '24px', md: '28px' },
       letterSpacing: { xs: '-0.4px', md: '-0.8px' },
       color: '#272937',
-      textAlign: 'center',
     }}
   >
     {text}

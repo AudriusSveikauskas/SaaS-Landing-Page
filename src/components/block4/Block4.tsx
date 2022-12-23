@@ -62,7 +62,7 @@ const Block4 = () => {
           </List>
 
           <Box sx={{ mt: '20px' }}>
-            <OutlinedButton title="Know More" />
+            <OutlinedButton title="Know More" arrow dark />
           </Box>
         </Box>
       </Box>

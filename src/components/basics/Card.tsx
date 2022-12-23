@@ -71,7 +71,7 @@ const Card: React.FC<CardProps> = ({
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <OutlinedButton title={buttonTitle} />
+        <OutlinedButton title={buttonTitle} arrow dark />
       </Box>
     </Box>
   );

@@ -37,31 +37,31 @@ const Block3 = () => (
       >
         <Block3Box>
           <HeadingAccentPrimaryH56 text="3.5Bn+" />
-          <HeadingDarkPrimaryH20 text="Users across apps" />
+          <Box sx={{ textAlign: 'center' }}>
+            <HeadingDarkPrimaryH20 text="Users across apps" />
+          </Box>
         </Block3Box>
 
         <Block3Box>
           <HeadingAccentPrimaryH56 text="110+" />
-          <Box>
+          <Box sx={{ textAlign: 'center' }}>
             <HeadingDarkPrimaryH20 text="Countries engaged" />
-            <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-              <HeadingDarkSecondaryH16 text="with ads each month" />
-            </Box>
+            <HeadingDarkSecondaryH16 text="with ads each month" />
           </Box>
         </Block3Box>
 
         <Block3Box>
           <HeadingAccentPrimaryH56 text="170+" />
-          <HeadingDarkPrimaryH20 text="GEOs covered" />
+          <Box sx={{ textAlign: 'center' }}>
+            <HeadingDarkPrimaryH20 text="GEOs covered" />
+          </Box>
         </Block3Box>
 
         <Block3Box>
           <HeadingAccentPrimaryH56 text="8+" />
-          <Box>
+          <Box sx={{ textAlign: 'center' }}>
             <HeadingDarkPrimaryH20 text="Years of Experience" />
-            <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-              <HeadingDarkSecondaryH16 text="in the App Industry" />
-            </Box>
+            <HeadingDarkSecondaryH16 text="in the App Industry" />
           </Box>
         </Block3Box>
       </Box>
