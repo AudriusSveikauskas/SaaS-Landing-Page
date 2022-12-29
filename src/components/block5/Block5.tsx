@@ -41,13 +41,13 @@ const Block5 = () => (
 
         <Box sx={{ display: 'flex', gap: '8px' }}>
           <Box>
-            <CircleButton>
+            <CircleButton isLight={false}>
               <ArrowBackIcon />
             </CircleButton>
           </Box>
 
           <Box>
-            <CircleButton>
+            <CircleButton isLight={false}>
               <ArrowForwardIcon />
             </CircleButton>
           </Box>
