@@ -9,6 +9,7 @@ import Block5 from '../components/block5/Block5';
 import Block6 from '../components/block6/Block6';
 import Block7 from '../components/block7/Block7';
 import Block8 from '../components/block8/Block8';
+import Block9 from '../components/block9/Block9';
 
 const HomePage = () => {
   console.log('HomePage');
@@ -40,6 +41,7 @@ const HomePage = () => {
         <Block7 />
       </Container>
       <Block8 />
+      <Block9 />
       <Box sx={{ height: '100px' }} />
     </>
   );
