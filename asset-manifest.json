@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/SaaS-Landing-Page/static/js/main.d3a489b4.js",
-    "static/js/787.cbdee6b2.chunk.js": "/SaaS-Landing-Page/static/js/787.cbdee6b2.chunk.js",
-    "index.html": "/SaaS-Landing-Page/index.html",
-    "main.d3a489b4.js.map": "/SaaS-Landing-Page/static/js/main.d3a489b4.js.map",
-    "787.cbdee6b2.chunk.js.map": "/SaaS-Landing-Page/static/js/787.cbdee6b2.chunk.js.map"
+    "main.js": "/saas-landing-page/static/js/main.84ee53f3.js",
+    "static/js/787.cbdee6b2.chunk.js": "/saas-landing-page/static/js/787.cbdee6b2.chunk.js",
+    "index.html": "/saas-landing-page/index.html",
+    "main.84ee53f3.js.map": "/saas-landing-page/static/js/main.84ee53f3.js.map",
+    "787.cbdee6b2.chunk.js.map": "/saas-landing-page/static/js/787.cbdee6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3a489b4.js"
+    "static/js/main.84ee53f3.js"
   ]
 }
