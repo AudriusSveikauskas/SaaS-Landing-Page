@@ -1,6 +1,9 @@
 import React from 'react';
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import HeadingDarkBlackH56 from '../typography/HeadingDarkBlackH56';
+import HeadingDarkPrimaryH20 from '../typography/HeadingDarkPrimaryH20';
+import HeadingDarkSecondaryH16 from '../typography/HeadingDarkSecondaryH16';
 
 const Block1 = () => (
   <Box
@@ -13,48 +16,42 @@ const Block1 = () => (
     }}
   >
     <Box sx={{ maxWidth: { xs: '100%', md: '584px' } }}>
-      <Typography
+      <Box
         sx={{
-          fontSize: { xs: '14px', sm: '20px' },
-          fontWeight: 600,
-          lineHeight: { xs: '20px', sm: '28px' },
-          color: '#272937',
-          letterSpacing: { xs: '-0.1px', sm: '-0.8px' },
           textAlign: { xs: 'center', md: 'left' },
-          mt: { xs: '12px', md: 0 },
+          mt: { xs: '12px', md: '52px' },
         }}
       >
-        Drive user acquisition, retention and revenue growth
-      </Typography>
+        <HeadingDarkPrimaryH20
+          text="Drive user acquisition, retention and revenue growth"
+          isSmaller
+          isLighter={false}
+        />
+      </Box>
 
-      <Typography
+      <Box
         sx={{
-          fontSize: { xs: '40px', sm: '56px' },
-          fontWeight: 600,
-          lineHeight: { xs: '44px', sm: '60px' },
-          letterSpacing: { xs: '-1.5px', sm: '-2px' },
           mt: { xs: '9px', sm: '16px' },
           textAlign: { xs: 'center', md: 'left' },
         }}
       >
-        Scale your app growth with high-value users
-      </Typography>
+        <HeadingDarkBlackH56 text="Scale your app growth with high-value users" />
+      </Box>
 
-      <Typography
+      <Box
         sx={{
-          fontSize: { xs: '16px', sm: '20px' },
-          fontWeight: 400,
-          lineHeight: { xs: '24px', sm: '30px' },
-          color: '#272937',
-          letterSpacing: { xs: '-0.4px', sm: '-0.8px' },
           mt: { xs: '12px', sm: '24px' },
           maxWidth: { xs: '100%', md: '516px' },
           textAlign: { xs: 'center', md: 'left' },
         }}
       >
-        Level up your mobile app user acquisition, retention and brand
-        performance with predictive algorithms and machine learning
-      </Typography>
+        <HeadingDarkPrimaryH20
+          text="Level up your mobile app user acquisition, retention and brand
+        performance with predictive algorithms and machine learning"
+          isSmaller={false}
+          isLighter
+        />
+      </Box>
 
       <Box
         sx={{
@@ -83,24 +80,15 @@ const Block1 = () => (
                 width: { xs: 0, md: '24px' },
               }}
             />
-            )}
+          )}
         >
           Get Started
         </Button>
       </Box>
 
-      <Typography
-        sx={{
-          fontSize: { xs: '14px', sm: '16px' },
-          fontWeight: 600,
-          lineHeight: { xs: '20px', sm: '24px' },
-          letterSpacing: { xs: '-0.1px', sm: '-0.4px' },
-          color: 'rgba(39,41,55,0.75)',
-          textAlign: { xs: 'center', md: 'left' },
-        }}
-      >
-        Trusted by
-      </Typography>
+      <Box sx={{ textAlign: { xs: 'center', md: 'left' } }}>
+        <HeadingDarkSecondaryH16 text="Trusted by" />
+      </Box>
       <Box
         sx={{
           display: 'flex',

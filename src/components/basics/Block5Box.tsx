@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box } from '@mui/material';
-import HeadingDarkPrimaryH20 from '../typography/HeadingDarkPrimaryH20';
+import { Box, Typography } from '@mui/material';
+import { darkPrimary } from '../../variables/colors';
 
 type Block5BoxProps = {
   link: string;
@@ -25,12 +25,22 @@ const Block5Box: React.FC<Block5BoxProps> = ({ link, text, alt }) => (
     </Box>
     <Box
       sx={{
-        maxWidth: { xs: '100%', md: '347px' },
+        maxWidth: { xs: '98%', md: '347px' },
         mt: { xs: '10px', md: '15px' },
         textAlign: { xs: 'center', md: 'left' },
       }}
     >
-      <HeadingDarkPrimaryH20 text={text} />
+      <Typography
+        sx={{
+          fontSize: '20px',
+          fontWeight: 600,
+          lineHeight: '28px',
+          letterSpacing: '-0.8px',
+          color: darkPrimary,
+        }}
+      >
+        {text}
+      </Typography>
     </Box>
   </Box>
 );

@@ -60,7 +60,7 @@ const renderList = (title: string, arr: string[]) => (
 );
 
 const Block9 = () => (
-  <Box sx={{ backgroundColor: darkPrimary, pt: { xs: '32px', md: '95px' } }}>
+  <Box sx={{ backgroundColor: darkPrimary, pt: { xs: '18px', md: '64px' } }}>
     <Container>
       <Box
         sx={{

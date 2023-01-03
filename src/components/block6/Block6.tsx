@@ -20,7 +20,8 @@ const Block6 = () => (
     sx={{
       backgroundColor: darkBackground,
       mt: { xs: '36px', md: '64px' },
-      paddingY: { xs: '36px', md: '64px' },
+      pt: { xs: '36px', md: '64px' },
+      pb: { xs: '36px', md: '40px' },
     }}
   >
     <Container
@@ -52,7 +53,7 @@ const Block6 = () => (
             alt="Hero 3"
           />
         </Box>
-        <Box sx={{ maxWidth: { xs: '100%', md: '586px' } }}>
+        <Box sx={{ maxWidth: { xs: '100%', md: '586px' }, mt: '42px' }}>
           <FormatQuoteTwoToneIcon
             sx={{
               color: accentOpacity50,
@@ -66,7 +67,11 @@ const Block6 = () => (
           </Box>
 
           <Box sx={{ mt: '31px', textAlign: { xs: 'center', md: 'left' } }}>
-            <HeadingDarkPrimaryH20 text="Elvis Wang" />
+            <HeadingDarkPrimaryH20
+              text="Elvis Wang"
+              isSmaller={false}
+              isLighter={false}
+            />
           </Box>
 
           <Box sx={{ mt: '8px', textAlign: { xs: 'center', md: 'left' } }}>

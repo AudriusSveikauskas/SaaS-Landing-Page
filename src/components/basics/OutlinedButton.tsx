@@ -1,7 +1,11 @@
 import React from 'react';
 import { Box, Button } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { accentOpacity10, darkBackground } from '../../variables/colors';
+import {
+  accentOpacity10,
+  accentPrimary,
+  darkBackground,
+} from '../../variables/colors';
 
 type OutlinedButtonProps = {
   title: string;
@@ -23,7 +27,7 @@ const OutlinedButton: React.FC<OutlinedButtonProps> = ({
         fontWeight: 600,
         lineHeight: '20px',
         letterSpacing: '-0.1px',
-        color: '#0066FF',
+        color: accentPrimary,
         border: 'solid 1px #0066FF',
         height: '40px',
         backgroundColor: dark ? darkBackground : accentOpacity10,

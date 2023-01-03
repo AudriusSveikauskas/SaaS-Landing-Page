@@ -28,7 +28,7 @@ const Block8 = () => (
     <Box
       sx={{
         position: 'absolute',
-        bottom: '10px',
+        bottom: '40px',
         right: '10px',
         display: { sm: 'none', md: 'block' },
         transform: 'rotate(180deg)',

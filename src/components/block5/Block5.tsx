@@ -10,7 +10,7 @@ import Block5Box from '../basics/Block5Box';
 import OutlinedButton from '../basics/OutlinedButton';
 
 const Block5 = () => (
-  <Box sx={{ mt: { xs: '36px', md: '64px' } }}>
+  <Box sx={{ mt: { xs: '36px', md: '130px' } }}>
     <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
       <Box
         sx={{

@@ -12,40 +12,36 @@ import Block8 from '../components/block8/Block8';
 import Block9 from '../components/block9/Block9';
 import Block10 from '../components/block10/Block10';
 
-const HomePage = () => {
-  console.log('HomePage');
-
-  return (
-    <>
-      <Box
-        sx={{
-          backgroundColor: { xs: '', md: 'rgba(39, 41, 55, 0.05)' },
-          width: '100%',
-          height: 714,
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          zIndex: -1,
-        }}
-      />
-      <Container>
-        <Block1 />
-        <Block2 />
-      </Container>
-      <Block3 />
-      <Container>
-        <Block4 />
-        <Block5 />
-      </Container>
-      <Block6 />
-      <Container>
-        <Block7 />
-      </Container>
-      <Block8 />
-      <Block9 />
-      <Block10 />
-    </>
-  );
-};
+const HomePage = () => (
+  <>
+    <Box
+      sx={{
+        backgroundColor: { xs: '', md: 'rgba(39, 41, 55, 0.05)' },
+        width: '100%',
+        height: 714,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        zIndex: -1,
+      }}
+    />
+    <Container>
+      <Block1 />
+      <Block2 />
+    </Container>
+    <Block3 />
+    <Container>
+      <Block4 />
+      <Block5 />
+    </Container>
+    <Block6 />
+    <Container>
+      <Block7 />
+    </Container>
+    <Block8 />
+    <Block9 />
+    <Block10 />
+  </>
+);
 
 export default HomePage;

@@ -4,7 +4,7 @@ import { darkPrimary } from '../../variables/colors';
 import HeadingLightSecondaryH16 from '../typography/HeadingLightSecondaryH16';
 
 const Block10 = () => (
-  <Box sx={{ backgroundColor: darkPrimary, pt: '60px', pb: '32px' }}>
+  <Box sx={{ backgroundColor: darkPrimary, pt: '46px', pb: '32px' }}>
     <Container
       sx={{
         display: 'flex',

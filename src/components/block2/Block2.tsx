@@ -1,6 +1,8 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import Card from '../basics/Card';
+import HeadingDarkPrimaryH40 from '../typography/HeadingDarkPrimaryH40';
+import HeadingDarkSecondaryH20 from '../typography/HeadingDarkSecondaryH20';
 
 const Block2 = () => (
   <Box
@@ -12,34 +14,23 @@ const Block2 = () => (
     }}
   >
     <Box sx={{ marginX: 'auto' }}>
-      <Typography
+      <Box sx={{ textAlign: 'center' }}>
+        <HeadingDarkPrimaryH40 text="The all-in-one platform to grow your app" />
+      </Box>
+      <Box
         sx={{
-          fontSize: { xs: '32px', md: '40px' },
-          fontWeight: 600,
-          lineHeight: { xs: '36px', md: '44px' },
-          letterSpacing: { xs: '-1px', md: '-1.5px' },
           textAlign: 'center',
-          color: '#272937',
-        }}
-      >
-        The all-in-one platform to grow your app
-      </Typography>
-      <Typography
-        sx={{
-          fontSize: { xs: '16px', md: '20px' },
-          fontWeight: 400,
-          lineHeight: { xs: '24px', md: '30px' },
-          letterSpacing: { xs: '-0.4px', md: '-0.8px' },
-          textAlign: 'center',
-          color: 'rgba(39,41,55,0.75)',
           maxWidth: '588px',
           marginX: 'auto',
           mt: '16px',
         }}
       >
-        Launch more powerful, data-driven, custom-built campaigns to achieve
-        global growth with 3dot14
-      </Typography>
+        <HeadingDarkSecondaryH20
+          text="Launch more powerful, data-driven, custom-built campaigns to achieve
+        global growth with 3dot14"
+          isLighter
+        />
+      </Box>
     </Box>
     <Box
       sx={{

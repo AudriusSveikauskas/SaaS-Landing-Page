@@ -14,7 +14,10 @@ const logoArr = [
 const Block7 = () => (
   <Box sx={{ marginY: { xs: '36px', md: '64px' } }}>
     <Box sx={{ textAlign: 'center' }}>
-      <HeadingDarkSecondaryH20 text="Our Extensive client base" />
+      <HeadingDarkSecondaryH20
+        text="Our Extensive client base"
+        isLighter={false}
+      />
     </Box>
 
     <Box

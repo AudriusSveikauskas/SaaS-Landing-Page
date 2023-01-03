@@ -7,3 +7,5 @@ export const darkPrimary = '#272937';
 export const accentPrimary = '#0066FF';
 export const lightPrimary = 'rgba(255,255,255,0.93)';
 export const lightSecondary = 'rgba(255,255,255,0.65)';
+export const darkBlack = '#000000';
+export const specialInfo = '#366BD3';
