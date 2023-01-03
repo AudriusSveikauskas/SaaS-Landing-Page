@@ -10,6 +10,7 @@ import Block6 from '../components/block6/Block6';
 import Block7 from '../components/block7/Block7';
 import Block8 from '../components/block8/Block8';
 import Block9 from '../components/block9/Block9';
+import Block10 from '../components/block10/Block10';
 
 const HomePage = () => {
   console.log('HomePage');
@@ -42,7 +43,7 @@ const HomePage = () => {
       </Container>
       <Block8 />
       <Block9 />
-      <Box sx={{ height: '100px' }} />
+      <Block10 />
     </>
   );
 };

@@ -1,12 +1,15 @@
 import React from 'react';
 import { Typography } from '@mui/material';
+import { lightPrimary, lightSecondary } from '../../variables/colors';
 
 type HeadingLightSecondaryH16Props = {
   text: string;
+  isPrimary: boolean;
 };
 
 const HeadingLightSecondaryH16: React.FC<HeadingLightSecondaryH16Props> = ({
   text,
+  isPrimary,
 }) => (
   <Typography
     sx={{
@@ -14,7 +17,7 @@ const HeadingLightSecondaryH16: React.FC<HeadingLightSecondaryH16Props> = ({
       fontWeight: 400,
       lineHeight: '24px',
       letterSpacing: '-0.4px',
-      color: 'rgba(255,255,255,0.65)',
+      color: isPrimary ? lightPrimary : lightSecondary,
     }}
   >
     {text}

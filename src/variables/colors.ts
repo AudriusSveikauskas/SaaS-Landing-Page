@@ -6,3 +6,4 @@ export const accentOpacity50 = 'rgba(0,102,255,0.5)';
 export const darkPrimary = '#272937';
 export const accentPrimary = '#0066FF';
 export const lightPrimary = 'rgba(255,255,255,0.93)';
+export const lightSecondary = 'rgba(255,255,255,0.65)';

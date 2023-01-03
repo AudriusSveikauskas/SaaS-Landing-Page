@@ -50,7 +50,7 @@ const renderList = (title: string, arr: string[]) => (
         <ListItem key={`item-${index + 1}`} disablePadding>
           <ListItemButton sx={{ paddingX: 0, paddingY: '2px' }}>
             <ListItemText>
-              <HeadingLightSecondaryH16 text={item} />
+              <HeadingLightSecondaryH16 text={item} isPrimary={false} />
             </ListItemText>
           </ListItemButton>
         </ListItem>
