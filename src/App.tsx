@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainLayout from './components/layouts/MainLayout';
 import HomePage from './pages/HomePage';
 
 const App = () => (
-  <BrowserRouter basename="/index.html">
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
