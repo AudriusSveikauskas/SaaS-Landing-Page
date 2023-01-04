@@ -1,7 +1,7 @@
 {
   "name": "saas-landing-page",
   "version": "0.1.0",
-  "homepage": "https://audriussveikauskas.github.io/SaaS-Landing-Page",
+  "homepage": "https://audriussveikauskas.github.io/SaaS-Landing-Page/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
