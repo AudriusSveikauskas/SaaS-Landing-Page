@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainLayout from './components/layouts/MainLayout';
 import HomePage from './pages/HomePage';
 
 const App = () => (
-  <Router>
+  <BrowserRouter basename="/SaaS-Landing-Page">
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
       </Route>
     </Routes>
-  </Router>
+  </BrowserRouter>
 );
 
 export default App;
