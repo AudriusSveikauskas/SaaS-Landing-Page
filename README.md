@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# Converted Figma design to React (Material UI) website
+
+## Figma file:
+
+![This is an image](https://github.com/AudriusSveikauskas/SaaS-Landing-Page/blob/main/Readme_img/saas_intro.jpg)
+
+[https://ui4free.com/website-templates/saas-landing-page-figma-website-template-3.htm](https://ui4free.com/website-templates/saas-landing-page-figma-website-template-3.htm)
+
+`Author: Akash Pandey`
+
+`File name: Landing Page (Community)`
+
+`Licensed under CC BY 4.0`
+
+## Demo:
+
+[https://audriussveikauskas.github.io/SaaS-Landing-Page/](https://audriussveikauskas.github.io/SaaS-Landing-Page/)
+
+`#React` `#Typescript` `#Material UI`
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+First you need to edit the files:
+
+`package.json`
+
+- set homepage:
+
+![This is an image](https://github.com/AudriusSveikauskas/SaaS-Landing-Page/blob/main/Readme_img/package_json.jpg)
+
+`App.tsx`
+
+- set basename:
+
+![This is an image](https://github.com/AudriusSveikauskas/SaaS-Landing-Page/blob/main/Readme_img/app_tsx.jpg)
 
 ## Available Scripts
 
